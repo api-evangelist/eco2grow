@@ -1,8 +1,31 @@
 aid: eco2grow
 name: ECO2GROW
-description: ECO2GROW is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ECO2GROW is a German renewable-energy procurement company serving mid-sized
+  businesses. It builds an individually optimized electricity procurement mix
+  that combines Power Purchase Agreements (PPAs) sourced directly from German
+  solar and wind farms with spot-market and forward contracts, giving companies
+  enterprise-level pricing, long-term fixed rates, and traceable green power.
+  The service automates the optimization of a company's procurement strategy and
+  reduces the complexity and transaction costs of closing a PPA, helping
+  industrial and mid-market buyers lower CO2 emissions through verifiable
+  renewable sourcing. ECO2GROW is a Techstars portfolio company. As a B2B energy
+  procurement and advisory business it operates a marketing/consulting web
+  presence and does not currently publish a public developer API, SDKs, or
+  technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/eco2grow/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66963b251048cd1bad4e0559/66c474d1eadded62b835f71f_Home%20Page%20Open%20Graph.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Renewable Energy
+- Sustainability
+- Power Purchase Agreement
+- Energy Procurement
+- Green Energy
+- Climate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eco2grow-domain-security.yml
 - type: Website
   url: https://eco2grow.com/
+- type: Blog
+  url: https://www.eco2grow.com/blog
+- type: PrivacyPolicy
+  url: https://www.eco2grow.com/legal/datenschutz
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
